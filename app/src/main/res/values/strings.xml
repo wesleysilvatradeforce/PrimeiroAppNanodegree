@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Primeiro de Projeto</string>
+    <string name="material_app">Faça o material de seu aplicativo</string>
+    <string name="seja_onipresente">Seja onipresente</string>
+    <string name="capstone">capstone</string>
+    <string name="faca_maior">Faça-o maior</string>
+    <string name="stock_hawk">Stock hawk</string>
+    <string name="filmes_popular">Filmes popular</string>
+    <string name="titulo">Meu Nanodegree App!</string>
+</resources>
