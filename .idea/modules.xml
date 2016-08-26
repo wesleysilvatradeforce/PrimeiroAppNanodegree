@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NanoDegree.iml" filepath="$PROJECT_DIR$/NanoDegree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeiroAppNanodegree.iml" filepath="$PROJECT_DIR$/PrimeiroAppNanodegree.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
