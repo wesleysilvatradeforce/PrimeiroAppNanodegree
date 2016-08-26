@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_small"
+    tools:context="wlsilva.com.br.primeirodeprojeto.movies.DetailMovieFragment">
+
+    <ImageView
+        android:id="@+id/img_moview"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/image_small_width"
+        android:layout_height="@dimen/image_small_height" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ratingBar"
+        android:textSize="@dimen/font_small"
+        android:textStyle="italic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/data" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/textviewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/data"
+        android:layout_toRightOf="@+id/img_moview"
+        android:layout_toEndOf="@+id/img_moview"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_moview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/margin_small"
+        android:isScrollContainer="false"
+        android:isIndicator="true"
+        android:numStars="10"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:id="@+id/ratingBar" />
+
+    <TextView
+        android:id="@+id/synopsis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textviewDescription"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

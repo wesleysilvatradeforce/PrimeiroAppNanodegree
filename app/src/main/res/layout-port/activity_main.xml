@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wlsilva.com.br.primeirodeprojeto.MainActivity">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:text="@string/titulo"
+        android:gravity="center"
+        style="@style/textview"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/filmes_popular"
+        android:text="@string/filmes_popular"
+        android:layout_centerHorizontal="true"
+        style="@style/button"
+        android:onClick="clickItem"
+        android:layout_below="@id/titulo"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/stock_hawk"
+        android:text="@string/stock_hawk"
+        android:layout_centerHorizontal="true"
+        style="@style/button"
+        android:onClick="clickItem"
+        android:layout_below="@id/filmes_popular"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/faca_maior"
+        android:text="@string/faca_maior"
+        android:layout_centerHorizontal="true"
+        style="@style/button"
+        android:onClick="clickItem"
+        android:layout_below="@id/stock_hawk"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/material_app"
+        android:text="@string/material_app"
+        style="@style/button"
+        android:onClick="clickItem"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/faca_maior"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/seja_onipresente"
+        android:text="@string/seja_onipresente"
+        style="@style/button"
+        android:onClick="clickItem"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/material_app"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/capstone"
+        android:text="@string/capstone"
+        style="@style/button"
+        android:onClick="clickItem"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/seja_onipresente"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

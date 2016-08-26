@@ -131,7 +131,7 @@ public class ListMoviesFragment extends Fragment implements AdapterView.OnItemCl
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if(this.async.getStatus() == AsyncTask.Status.RUNNING){
+        if(this.async != null &&this.async.getStatus() == AsyncTask.Status.RUNNING){
             this.async.cancel(true);
         }
         this.async = null;

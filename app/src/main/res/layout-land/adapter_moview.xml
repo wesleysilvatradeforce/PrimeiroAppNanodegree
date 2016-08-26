@@ -5,8 +5,8 @@
         android:id="@+id/img_moview"
         android:scaleType="fitXY"
         android:gravity="center"
-        android:layout_width="75dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_height="100dp" />
+        android:layout_width="@dimen/image_small_width"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_height="@dimen/image_small_height" />
 </FrameLayout>

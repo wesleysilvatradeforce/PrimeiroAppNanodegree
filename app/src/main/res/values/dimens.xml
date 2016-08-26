@@ -11,4 +11,7 @@
     <dimen name="font_title">24sp</dimen>
     <dimen name="font_normal">14sp</dimen>
     <dimen name="font_small">12sp</dimen>
+    <dimen name="image_small_width">75dp</dimen>
+    <dimen name="image_small_height">100dp</dimen>
+    <dimen name="gridview_column_width">75dp</dimen>
 </resources>
