@@ -7,4 +7,11 @@
     <string name="stock_hawk">Stock hawk</string>
     <string name="filmes_popular">Filmes popular</string>
     <string name="titulo">Meu Nanodegree App!</string>
+
+    <string name="pref_on">popular</string>
+    <string name="pref_off">votado</string>
+    <string name="pref_key" translatable="false">order</string>
+    <string name="pref_title">Ordenacao</string>
+    <string name="pref_menu_setting">Ajustes</string>
+    <string name="error_network">Erro na conexão</string>
 </resources>

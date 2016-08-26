@@ -1,0 +1,2 @@
+Projeto do curso da Udacity Nanodegree Android.
+Stage1 - Conecta na API de filme aonde pode ser ordenando em dois tipos, populares ou rating. Para usar o precisa adiciona api key do servico https://www.themoviedb.org, para adquirir essa o api key precisa fazer o cadastro no site e adiconar o arquivo app/gradle.properties API_MOVIE=[API_KEY]
